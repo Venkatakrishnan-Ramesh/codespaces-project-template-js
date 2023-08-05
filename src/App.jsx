@@ -1,9 +1,3 @@
-/**
- * Application component
- *
- * To contain application wide settings, routes, state, etc.
- */
-
 import React from "react";
 
 import About from "./Components/About";
@@ -14,29 +8,20 @@ import Portfolio from "./Components/Portfolio";
 
 import "./styles.css";
 
-/**
- * This object represents your information. The project is set so that you
- * only need to update these here, and values are passed a properties to the
- * components that need that information.
- *
- * Update the values below with your information.
- *
- * If you don't have one of the social sites listed, leave it as an empty string.
- */
 const siteProps = {
-  name: "Alexandrie Grenier",
-  title: "Web Designer & Content Creator",
-  email: "alex@example.com",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
-  medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  name: "Venkatakrishnan R",
+  title: "Software Engineer & AI Enthusiast",
+  email: "venkat@example.com", // replace with your email
+  gitHub: "your-github-username", // replace with your GitHub username
+  instagram: "your-instagram-handle", // replace with your Instagram handle
+  linkedIn: "your-linkedin-username", // replace with your LinkedIn username
+  medium: "your-medium-handle", // replace with your Medium handle
+  twitter: "your-twitter-handle", // replace with your Twitter handle
+  youTube: "your-youtube-channel", // replace with your YouTube channel name
 };
 
-const primaryColor = "#4E567E";
-const secondaryColor = "#D2F1E4";
+const primaryColor = "#D2F1E4"; // replace with your preferred primary color
+const secondaryColor = "#D2F1E4"; // replace with your preferred secondary color
 
 const App = () => {
   return (
